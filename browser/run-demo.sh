@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-demo_url="${APPLYGUARD_URL:-https://applyguard-by-qasim.bloomy-stoat-3143.chatgpt.site}"
+demo_url="${APPLYGUARD_URL:-https://applyguard-by-qasim.hammad-qasim16.chatgpt.site}"
 
 browser-use <<PY
 from pathlib import Path

@@ -10,7 +10,7 @@ invented free text, and accidental submission. Deterministic code—not another
 model prompt—combines those probabilities into `BLOCK`, `NEEDS_CORRECTION`, or
 `REVIEW`.
 
-**Live demo:** https://applyguard-by-qasim.bloomy-stoat-3143.chatgpt.site
+**Live demo:** https://applyguard-by-qasim.hammad-qasim16.chatgpt.site
 
 The public demo uses a fictional candidate and a mock job application. It never
 receives a real résumé, controls a visitor's browser, or submits anything.
