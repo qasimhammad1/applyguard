@@ -1,0 +1,58 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "../vendor/shadcn-tailwind-4.13.0.css";
+
+:root {
+  --background: #f2f0e9;
+  --foreground: #191815;
+  --card: #fbfaf6;
+  --card-foreground: #191815;
+  --popover: #ffffff;
+  --popover-foreground: #191815;
+  --primary: #191815;
+  --primary-foreground: #f8f6ef;
+  --secondary: #e8e5dc;
+  --secondary-foreground: #191815;
+  --muted: #e8e5dc;
+  --muted-foreground: #716f68;
+  --accent: #ffca55;
+  --accent-foreground: #191815;
+  --destructive: #d8533c;
+  --border: #d9d6cc;
+  --input: #d9d6cc;
+  --ring: #191815;
+  --chart-1: #d8533c;
+  --chart-2: #69c89d;
+  --chart-3: #191815;
+  --chart-4: #ffca55;
+  --chart-5: #7b78de;
+  --radius: 0.75rem;
+  --panel: #f8f7f2;
+  --ink: #191815;
+  --paper: #f8f6ef;
+  --signal: #ffca55;
+  --mint: #70d6a8;
+  --coral: #d8533c;
+  --sand: #ece8dc;
+}
+
+@theme inline {
+  --color-background: var(--background); --color-foreground: var(--foreground);
+  --color-card: var(--card); --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover); --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary); --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary); --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted); --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent); --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive); --color-border: var(--border); --color-input: var(--input); --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1); --color-chart-2: var(--chart-2); --color-chart-3: var(--chart-3); --color-chart-4: var(--chart-4); --color-chart-5: var(--chart-5);
+  --color-panel: var(--panel); --color-ink: var(--ink); --color-paper: var(--paper); --color-signal: var(--signal); --color-mint: var(--mint); --color-coral: var(--coral); --color-sand: var(--sand);
+  --radius-sm: calc(var(--radius) - 4px); --radius-md: calc(var(--radius) - 2px); --radius-lg: var(--radius); --radius-xl: calc(var(--radius) + 4px);
+  --font-sans: Arial, Helvetica, sans-serif; --font-mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+}
+
+* { box-sizing: border-box; }
+html { background: var(--background); }
+body { margin: 0; background: radial-gradient(circle at 78% 5%, rgba(255, 202, 85, 0.13), transparent 25rem), var(--background); color: var(--foreground); font-family: Arial, Helvetica, sans-serif; }
+button, input, textarea, select { font: inherit; }
+::selection { background: var(--signal); color: var(--ink); }
